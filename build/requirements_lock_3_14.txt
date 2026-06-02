@@ -644,10 +644,10 @@ nvidia-cuda-nvrtc-cu12==12.9.86 ; sys_platform == "linux" \
     # via
     #   -r build/nvidia-requirements.txt
     #   nvidia-cublas-cu12
-nvidia-cuda-runtime==13.2.75 ; sys_platform == "linux" \
-    --hash=sha256:16a2ff1b786d52c7b4d4439c7f5fc05cf9e086071f51efd5163989dee65bd4ea \
-    --hash=sha256:36e539e8deb01568025830c1454216c26ef4b4529507220b1d8ef739bf5c6439 \
-    --hash=sha256:72bf454902da594e0b833cadeddc8b7100ce1c7cf7ed9023943931be1aa913b7
+nvidia-cuda-runtime==13.3.29 ; sys_platform == "linux" \
+    --hash=sha256:0667ec61c3d897388efa305ed4f7609ace88849a753ba9c6311d06dca55fff4f \
+    --hash=sha256:73291e19c9dd919c140c91bda2f80b0eca487da5ee30a086ef7bc4918ecb90ea \
+    --hash=sha256:e04420616e72f563167a7733272992d7e6df6dc5cb54b2f94f9f1520ea9e30c1
     # via
     #   -r build/nvidia-requirements.txt
     #   nvidia-cuda-nvcc
